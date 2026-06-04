@@ -56,7 +56,7 @@ Create a local proxy server:
 from fastmcp import FastMCP
 
 mcp = FastMCP.as_proxy(
-    "https://splendid-gold-dingo.fastmcp.app/mcp", # example url
+    "https://splendid-gold-dingo.fastmcp.app/mcp", # example url, get your url from fastmcp cloud
     name="Neel Server Proxy"
 )
 
