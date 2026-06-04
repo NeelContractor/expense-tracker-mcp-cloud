@@ -42,7 +42,7 @@ uv run fastmcp dev inspector main.py
 
 This project is deployed to FastMCP Cloud.
 
-Remote MCP Endpoint:
+Remote MCP Endpoint (example url):
 
 ```text
 https://splendid-gold-dingo.fastmcp.app/mcp
@@ -56,7 +56,7 @@ Create a local proxy server:
 from fastmcp import FastMCP
 
 mcp = FastMCP.as_proxy(
-    "https://splendid-gold-dingo.fastmcp.app/mcp",
+    "https://splendid-gold-dingo.fastmcp.app/mcp", # example url
     name="Neel Server Proxy"
 )
 
